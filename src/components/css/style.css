@@ -1,0 +1,77 @@
+
+.navigacio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigacio .jobb-oldal {
+    display: flex;
+    align-items: center;
+}
+
+.navigacio ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigacio ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.navigacio ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.navigacio ul li a.active,
+.navigacio ul li a:hover {
+    color: #ff6106;
+}
+
+.profil {
+    margin-right: 40px; 
+}
+
+.profil,
+.kosar {
+    position: absolute;
+    right: 20px; 
+    font-size: 20px; 
+}
+
+.profil a,
+.kosar a {
+    color: #ff6106; 
+}
+
+.navbar-brand span {
+    color: #ff6106; 
+    font-size: 30px; 
+    font-weight: bold; 
+}
+
+.search-bar {
+    margin-inline: 10px;
+}
+
+.search-bar input{
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.search-bar button{
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s ease;
+}
+
+

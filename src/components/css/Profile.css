@@ -1,0 +1,81 @@
+
+.background {
+    background-color: #ffff;
+    padding: 30px 0;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  .user-info {
+    margin-bottom: 30px;
+  }
+  
+  .user-info p {
+    margin: 12px 0; 
+    font-size: 18px;
+  }
+  .login-title {
+    margin-bottom: 2rem;
+    font-size: 34px;
+    text-align: center;
+    color:#ff6106 ;
+    border-bottom: 4px solid #010101; 
+}
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+  }
+  
+  .logout-button,
+  .link {
+    padding: 14px 28px; 
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button {
+    background-color: #ff6106;
+  }
+  
+  .link {
+    background-color: #ff6106; 
+  }
+  
+  .logout-button:hover,
+  .link:hover {
+    background-color: #983a03; 
+  }
+  
+  .logout-button:focus,
+  .link:focus {
+    outline: none;
+  }
+  
+  .link:visited {
+    color: white;
+  }
+  
+  .link:active {
+    transform: translateY(1px);
+  }
+  
+  .login-message {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
